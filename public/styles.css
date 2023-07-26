@@ -1,0 +1,40 @@
+body {
+  background-color: #2694ab;
+  color: #fdc4b6;
+  font-family: cursive;
+}
+
+.card {
+  width: 30rem;
+  padding: 1rem;
+  padding-top: 0;
+  margin-top: 1rem;
+  border: solid 1px black;
+  border-radius: 1rem;
+  background-color: #ea7070;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.button {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: small;
+  color: white;
+  padding: 0.25rem;
+  margin: 1rem;
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0.3rem);
+}
+
+.red {
+  border-color: hsl(0, 77%, 56%, 1);
+  background-color: hsl(0, 77%, 56%, 1);
+  box-shadow: 0 0.3rem 0 hsl(0, 65%, 51%, 1);
+}
